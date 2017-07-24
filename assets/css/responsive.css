@@ -1,0 +1,83 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    font-size: 13px;
+    padding: 12px 10px;
+}  
+.hero-area h1 {
+    font-size: 40px;
+    margin-top: 75px;
+}  
+.single-service-box-2 {
+       height: 220px;
+}
+.single-team-box img {
+    height: 200px;    
+}
+.case-study-box-preview {
+     height: 250px;
+}
+.case-study-wrapper{
+    padding:15px;
+}
+.pricing-heading h4 {
+    padding-top: 0px;
+}
+.pricing-content {
+    font-size: 15px;
+    line-height: 2;
+}
+.pricing-count {
+    font-size: 42px;
+    line-height: 42px;
+}
+.single-slide-item h2 {
+    font-size: 50px;
+    line-height: 45px;
+}
+.testimonial-content {
+    font-size: 20px;
+}
+.pdt-50 {
+    padding-top: 30px;
+}
+.single-blog-box {
+    padding: 20px;  
+}
+.blog-thumb-wrapper.single-blog-bg-1, .blog-thumb-wrapper.single-blog-bg-2, .blog-thumb-wrapper.single-blog-bg-3, .blog-thumb-wrapper.single-blog-bg-4, .blog-thumb-wrapper.single-blog-bg-5, .blog-thumb-wrapper.single-blog-bg-6, .blog-thumb-wrapper.single-blog-bg-7, .blog-thumb-wrapper.single-blog-bg-8, .blog-thumb-wrapper.single-blog-bg-9 {
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.service-section::before {
+    top: -47px;
+    width: 48%;   
+}
+.boxed-case-study .single-case-study {
+     height: 200px;
+}
+.pdt-100 {
+    padding-top: 50px;
+}
+.section-padding {
+    padding: 120px 0;
+}
+.single-feature-item {
+    margin-top: 25px;
+ }
+ }
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
