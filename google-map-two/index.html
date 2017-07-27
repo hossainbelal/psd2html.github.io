@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>100 Section-2</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+         <script src="assets/js/jquery-1.12.4.min.js"></script>
+    </head>
+    <body>
+  
+         <div class="section-padding">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-12">
+             
+              <div id="googleMap" style="width:100%;height:400px;"></div>
+               
+                <script>
+                function myMap() {
+                var mapOptions= {
+                    center:new google.maps.LatLng(22.3680127,91.8280139,71),
+                    zoom:15,
+                    scrollwheel:false,
+                      styles:[
+                      {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+                        {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#ffffff'}]
+            },
+               {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#696969'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#C4C4C4'}]
+            },
+           
+                    ],
+                                };
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+                }
+                </script>
+                  
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZSzHtJLzxeTlXwlqOBAKDc7iLS-JWZGU&callback=myMap"></script>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+
+
+
+        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
