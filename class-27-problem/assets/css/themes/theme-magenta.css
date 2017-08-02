@@ -1,0 +1,47 @@
+.boxed-btn, input[type="submit"], button[type="submit"],
+ .main-menu.home-page li:hover li:hover > a,
+ .slicknav_btn, 
+ .slicknav_nav .slicknav_row:hover,
+ .slicknav_nav a:hover, 
+  .case-study-wrapper, 
+  .owl-dots div.active{
+    background-color: #8e44ad;
+
+
+}
+
+    .main-menu li a:hover,
+    .menu-cta h4 span,
+    .home-page .menu-cta h4 span,
+    .single-service-box:hover a.service-readmore-btn,
+     .single-service-box:hover h3, service-icon,
+     .single-service-box:hover .service-icon, .pricing-count,
+      .footer-area.theme-8 .social-links li:hover a, .footer-area.theme-8 li:hover a,
+      .main-menu.home-page li:hover > a {
+    color: #8e44ad;
+}
+
+.single-pricing-box:hover, .single-service-box:hover{
+    border-color:#8e44ad;
+}
+
+.single-pricing-box:hover .pricing-heading{
+    border-bottom-color:#8e44ad;
+}
+.off-canvas-menu a:hover, .footer-area ul.social-links:hover li, .section-icon,
+ .footer-area ul.social-links:hover li, .copyright-area-2 a:hover, 
+ .footer-area-2 a:hover, .footer-area.same-theme li:hover a, .footer-area.theme-4 a:hover,
+  .main-menu li:hover >
+ a, .testimonial-icon, .blog-readmore-btn{
+    color: #8e44ad;
+}
+
+
+.main-menu li:hover li:hover > a, .testimonial-text::after, .active .testimonial-text,
+ .cta-area.theme-2 .boxed-btn:hover, .case-study-link-tablecell::after {
+    background-color: #8e44ad;}
+
+    .website-check-form input[type="submit"], .website-check-form button[type="submit"] {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+}
